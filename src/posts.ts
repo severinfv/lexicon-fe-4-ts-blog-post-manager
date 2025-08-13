@@ -2,6 +2,7 @@ import './css/style.css';
 import { v4 as generateId } from 'uuid';
 import { dummyPosts } from './data'
 import type { IPost } from './types';
+import { buildPostPage } from './blogpost';
 
 const blogPostAreaEl = document.querySelector<HTMLElement>('.posts')!;
 
@@ -17,7 +18,7 @@ blogPostAreaEl.addEventListener('click', (e) => openPost(e));
 
 
 function createNewPostEl(post: IPost): HTMLElement {
-    const { id, author, timestamp, title, tags, images, content, featured } = post;
+    const { id, author, timestamp, title, tags, image, content, featured } = post;
     const classes = ['post'];
 
     if (tags) {
@@ -39,7 +40,7 @@ function createNewPostEl(post: IPost): HTMLElement {
     newPostEl.innerHTML = /*html*/ `
     <p class="date">${date.toDateString()}</p>
     <p class="title">${title}</p>
-    <p class="time">${timeRead} min read</p>
+    <p class="timeRead">${timeRead} min read</p>
 
     `;
     localStorage.setItem(id,  JSON.stringify(post));
@@ -63,14 +64,6 @@ function openPost(event: MouseEvent): void {
 
     let postString = localStorage.getItem(postEl.id)!;
 
-    let post = JSON.parse(postString)
-
-   // location.replace("/mynewpost");
-
-    blogPostAreaEl.innerHTML = /*html*/ `
-        <h1>${post.title}</h1>
-
-`;
-
-
-}
+    blogPostAreaEl.innerHTML = "";
+    blogPostAreaEl.insertAdjacentElement('beforeend', buildPostPage(postString)); //import from blogpost
+} 
