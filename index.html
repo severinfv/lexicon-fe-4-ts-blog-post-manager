@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post Manager</title>
+  </head>
+  <body>
+      <header id = "header">
+        <nav class = "header-menu">
+          <a href="index.html">logo</a>
+          <a href="#">about</a>
+          <a href="#">travel</a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- cover -->
+        <section id = "cover" class="cover">
+          <div class="icon">icon</div>
+          <div class="description">description</div>
+        </section>
+
+        <!-- featured feed -->
+        <section id='featured' class="featured">
+          <h2 class="title">Featured articles</h2>
+          <div class="feed">featured posts</div>
+        </section>
+
+        <!-- post articles -->
+        <section id='posts' class="posts"></section>
+      </main>
+
+      <footer>
+      <p>Made with ☕️ by Severin F.</p>
+      <p></p>
+    </footer>
+
+    <script type="module" src="/src/posts.ts"></script>
+    <script type="module" src="/src/featured.ts"></script>
+  </body>
+</html>

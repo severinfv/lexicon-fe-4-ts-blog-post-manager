@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --border-radius: 0.5rem;
+  --main-color: #2a75bb;
+  --secondary-color: #ffcb05;
+}
+
+h1 {
+  color: red
+}
