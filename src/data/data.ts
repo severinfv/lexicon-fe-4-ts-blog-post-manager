@@ -1,113 +1,124 @@
-import type { IPost } from '../interfaces';
+import type { IPost } from "../interfaces";
 
 export const dataPosts: IPost[] = [
   {
-    id: 'post-1',
-    author: 'Severin',
+    id: "post-1",
+    author: "Severin",
     timestamp: 1755596043708,
-    title: 'Hello World',
-    tags: ['travel'],
-    image: 'https://images.unsplash.com/photo-1659720879265-4d4ac0cab23b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
+    title: "Hello World",
+    tags: ["travel"],
+    image:
+      'https://images.unsplash.com/photo-1659720879265-4d4ac0cab23b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
     featured: false,
-    slug:'/hello-world'
+    slug: "/hello-world",
   },
   {
-    id: 'post-2',
-    author: 'Severin',
+    id: "post-2",
+    author: "Severin",
     timestamp: 1755596043708,
-    title: 'I  can surf',
-    tags: ['travel', 'adventures', 'sports'],
-    image: 'https://images.unsplash.com/photo-1531722569936-825d3dd91b15?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: true,
-    slug:'/i-can-surf'
+    title: "I  can surf",
+    tags: ["travel", "adventures", "sports"],
+    image:
+      "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+      featured: true,
+    slug: "/i-can-surf",
   },
-    {
-    id: 'post-3',
-    author: 'Severin',
+  {
+    id: "post-3",
+    author: "Severin",
     timestamp: 1755596043708,
-    title: 'Sunsets in Morocco',
-    tags: ['travel', 'Morocco'],
-    image: 'https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: true,
-    slug:'/sunsets-in-morocco'
+    title: "Sunsets in Morocco",
+    tags: ["travel", "Morocco"],
+    image:
+      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+      featured: true,
+    slug: "/sunsets-in-morocco",
   },
-    {
-    id: 'post-4',
-    author: 'Severin',
+  {
+    id: "post-4",
+    author: "Severin",
     timestamp: 1755596043708,
-    title: 'Summertime in Stockholm',
-    tags: ['travel', 'Stockholm'],
-    image: 'https://images.unsplash.com/photo-1588653818221-2651ec1a6423?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
+    title: "Summertime in Stockholm",
+    tags: ["travel", "Stockholm"],
+    image:
+      "https://images.unsplash.com/photo-1588653818221-2651ec1a6423?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
     featured: true,
-    slug:'/summertime-in-stockholm'
+    slug: "/summertime-in-stockholm",
   },
-    {
-    id: 'post-16',
-    author: 'Severin',
+  {
+    id: "post-16",
+    author: "Severin",
     timestamp: 1755596043408,
-    title: 'Mo more travels',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1754384078097-151de4e3f06b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
+    title: "Mo more travels",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1754384078097-151de4e3f06b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
     featured: false,
-    slug:'/no-more-travels'
-  },
-    {
-    id: 'post-8',
-    author: 'Severin',
-    timestamp: 1755596042708,
-    title: 'About this blog',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: true,
-    slug:'/about'
-  },
-    {
-    id: 'post-5',
-    author: 'Severin',
-    timestamp: 1755596042708,
-    title: 'Another post',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: false,
-    slug:'/about'
-  },
-    {
-    id: 'post-7',
-    author: 'Severin',
-    timestamp: 1755596042708,
-    title: 'One more post',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: false,
-    slug:'/about'
+    slug: "/no-more-travels",
   },
   {
-    id: 'post-7',
-    author: 'Severin',
+    id: "post-8",
+    author: "Severin",
     timestamp: 1755596042708,
-    title: 'One more post',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
-    featured: false,
-    slug:'/about'
-  },{
-    id: 'post-7',
-    author: 'Severin',
+    title: "About this blog",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+    featured: true,
+    slug: "/about",
+  },
+  {
+    id: "post-5",
+    author: "Severin",
     timestamp: 1755596042708,
-    title: 'One more post',
-    tags: ['travel', 'adventures'],
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.\n\n Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touch points for offshoring. \n\n Capitalize on low hanging fruit to identify a ballpark value added activity beta test. Override the digital divide with additional clickthroughs from DevOps. ',
+    title: "Another post",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
     featured: false,
-    slug:'/about'
-  }
+    slug: "/about",
+  },
+  {
+    id: "post-7",
+    author: "Severin",
+    timestamp: 1755596042708,
+    title: "One more post",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+    featured: false,
+    slug: "/about",
+  },
+  {
+    id: "post-7",
+    author: "Severin",
+    timestamp: 1755596042708,
+    title: "One more post",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+    featured: false,
+    slug: "/about",
+  },
+  {
+    id: "post-7",
+    author: "Severin",
+    timestamp: 1755596042708,
+    title: "One more post",
+    tags: ["travel", "adventures"],
+    image:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi nec cursus libero, ut pellentesque risus. Vestibulum aliquam id nunc eu congue. Vestibulum tincidunt condimentum orci, at interdum augue. Donec vitae hendrerit turpis. Sed nec nisl ornare lacus consequat blandit eu non erat. Aliquam ultrices congue massa a feugiat. Donec ac est in urna condimentum vehicula. Maecenas sed nulla tincidunt, vehicula purus non, ultrices mi. Vestibulum blandit dapibus lectus ac mattis. Mauris id finibus sapien. Vestibulum dui quam, fermentum ut mauris in, laoreet facilisis diam. Praesent efficitur ante in metus gravida porta. Quisque sed quam nec tortor vehicula venenatis. Maecenas nec neque mi. \n Nam vehicula mi a ante elementum, vel venenatis odio consequat. Fusce magna ante, porttitor vestibulum sagittis nec, pulvinar quis nisl. Aliquam interdum, odio id fermentum molestie, leo nunc posuere felis, nec congue lacus orci in sem. Sed finibus vulputate tellus, ut accumsan leo. In hac habitasse platea dictumst. Praesent quis turpis a nisi blandit fermentum. Nulla congue sagittis sollicitudin. Vestibulum sed neque ac mi egestas mattis sed quis ligula. Ut eget odio non odio euismod scelerisque. Donec vitae tincidunt ligula, et luctus ligula. Morbi a augue et massa feugiat iaculis eu quis quam. Maecenas eleifend malesuada rutrum. Mauris tincidunt efficitur nunc ac malesuada. Ut mattis metus turpis, eget rhoncus dolor sollicitudin a. \n Suspendisse luctus, mauris at rutrum ullamcorper, massa tellus blandit leo, ullamcorper maximus lacus est sed ligula. Vestibulum placerat sagittis erat, eu semper mi volutpat ac. Quisque sit amet condimentum ipsum. Mauris ut purus facilisis, accumsan nibh et, luctus elit. Morbi id mauris purus. Integer aliquam leo erat, vel vulputate tortor fringilla eu. Duis pharetra faucibus nisl, a ornare purus varius nec. Nullam dapibus nisl eget nibh laoreet, id tincidunt magna ornare. Fusce suscipit consectetur lectus nec blandit. Praesent ultricies tincidunt eros, ac luctus orci cursus vel. Quisque fringilla sapien purus, quis accumsan lectus pharetra quis. Duis blandit, sapien eu elementum ornare, dui odio scelerisque elit, vel vulputate lorem ligula eget est.",
+    featured: false,
+    slug: "/about",
+  },
 ];

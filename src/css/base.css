@@ -28,6 +28,8 @@ html {
 h1 {
   font-size: var(--h1-font-size);
   margin-bottom: 1rem;
+  color: var(--main-color);
+
 }
 
 header {

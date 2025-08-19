@@ -79,6 +79,7 @@ function savePostOnClick(event: MouseEvent, tmpPost: IPost, postKey: string, mai
         Storage.savePost(tmpPost, mainKey);
         localStorage.removeItem("tmp")
         location.assign(tmpPost.slug); 
+        console.log(tmpPost.content)
     }
 }
 

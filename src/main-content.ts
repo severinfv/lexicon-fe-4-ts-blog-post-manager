@@ -31,7 +31,7 @@ if (Storage.checkPostByKey(location.pathname)) {
 
 // #################### Functions bellow ####################
 
-function initPostsFeed(nrOfPosts: number = 4, tag?: string): void {
+function initPostsFeed(nrOfPosts: number = 2, tag?: string): void {
   postsContainer.innerHTML = "";
 
   let posts: IPost[] = Storage.getAllPosts().filter((p) => !p.featured);
