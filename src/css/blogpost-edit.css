@@ -1,0 +1,48 @@
+form.edit-form {
+  width: 60%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto 3rem; 
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form.edit-form input,
+form.edit-form textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: var(--content-font-size); 
+}
+
+form.edit-form input {
+  resize: horizontal;
+}
+
+form.edit-form textarea {
+  max-height: 500px;
+  min-height: 150px;
+}
+
+form.edit-form .save-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: var(--content-font-size);
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+form.edit-form .save-btn:hover {
+  background-color: #5a3260;
+}

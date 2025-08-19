@@ -1,0 +1,54 @@
+.cover {
+  justify-content: center;
+}
+
+.postMeta,
+.postTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.postTitle > h1 {
+  font-size: var(--h1-font-size);
+}
+
+.postBody {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: flex-end;
+}
+.blogpost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  justify-content: flex-start;
+}
+
+.imgMain {
+  display: flex;
+  justify-content: center;
+}
+
+.imgMain > img {
+  width: 75%;
+}
+
+.textMain > p {
+  padding: 10px;
+}
+
+.editMenu button {
+  background: transparent;
+  color: var(--main-color);
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}

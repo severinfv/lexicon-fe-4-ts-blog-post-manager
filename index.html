@@ -1,44 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Post Manager</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   </head>
   <body>
-      <header id = "header">
-        <nav class = "header-menu">
-          <a href="index.html">logo</a>
-          <a href="#">about</a>
-          <a href="#">travel</a>
-        </nav>
-      </header>
+    <header class="header">
+      <nav class="header-menu">
+          <div class="icon">
+          <img src="https://images.unsplash.com/vector-1739808709797-625d44d54ddf?w=380&auto=format"
+          />
+        </div>
+        <a href="/index.html">BestBlog</a>
+        <a href="/about">about</a>
+        <!-- <a href="#" class="login">login</a>-->
+      </nav>
+    </header>
 
-      <main>
-        <!-- cover -->
-        <section id = "cover" class="cover">
-          <div class="icon">icon</div>
-          <div class="description">description</div>
-        </section>
+    <main class="content">
+      <!-- cover -->
+      <section id="cover" class="cover">
+        <div class="icon2">
+          <img src="https://images.unsplash.com/vector-1739808709797-625d44d54ddf?w=380&auto=format"
+          />
+        </div>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          laoreet, lorem vel cursus condimentum, quam nunc convallis sapien, ut
+          venenatis orci mi ut felis. Duis arcu quam, posuere vel fringilla ut,
+          dapibus ac tortor.
+        </div>
+      </section>
 
-        <!-- featured feed -->
-        <section id='featured' class="featured">
-          <h2 class="title">Featured articles</h2>
-          <div class="feed">featured posts</div>
-        </section>
+      <!-- featured feed   -->
+      <section class="featured-articles">
+        <div class="featured-inner"></div>
+      </section>
 
-        <!-- post articles -->
-        <section id='posts' class="posts"></section>
-      </main>
+      <!-- posts feed or main article -->
+      <section class="posts-feed">
+        <div class="posts-inner"></div>
+      </section>
+    </main>
 
-      <footer>
+    <footer>
       <p>Made with ☕️ by Severin F.</p>
       <p></p>
     </footer>
 
-    <script type="module" src="/src/posts.ts"></script>
-    <script type="module" src="/src/featured.ts"></script>
+    <script type="module" src="/src/main-content.ts"></script>
   </body>
 </html>
